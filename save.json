@@ -1,0 +1,75 @@
+{
+  "player": {
+    "attributes": {
+      "agility": 6,
+      "smarts": 4,
+      "spirit": 6,
+      "strength": 6,
+      "vigor": 8
+    },
+    "skills": {
+      "athletics": {
+        "name": "运动",
+        "rank": 1,
+        "attribute": "agility"
+      },
+      "notice": {
+        "name": "感知",
+        "rank": 1,
+        "attribute": "smarts"
+      },
+      "stealth": {
+        "name": "潜行",
+        "rank": 1,
+        "attribute": "agility"
+      },
+      "fighting": {
+        "name": "格斗",
+        "rank": 1,
+        "attribute": "agility"
+      },
+      "shooting": {
+        "name": "射击",
+        "rank": 0,
+        "attribute": "agility"
+      }
+    },
+    "wounds": 0,
+    "fatigue": 0,
+    "is_shaken": false,
+    "bennies": 3,
+    "max_wounds": 3,
+    "armor": {
+      "head": 0,
+      "torso": 1,
+      "arms": 0,
+      "legs": 0
+    },
+    "inventory": [
+      {
+        "name": "短剑",
+        "type": "weapon",
+        "damage": "1d6",
+        "weight": 2
+      },
+      {
+        "name": "皮甲",
+        "type": "armor",
+        "protection": 1,
+        "location": "torso"
+      },
+      {
+        "name": "治疗药水",
+        "type": "consumable",
+        "effect": "heal_1_wound"
+      }
+    ],
+    "position": [
+      8,
+      8
+    ],
+    "facing": 0
+  },
+  "map_seed": 42,
+  "tile_states": []
+}
