@@ -1,45 +1,20 @@
-# 地下城
+# Savage Dungeon
 
-#### 介绍
-地下城小游戏
+一款基于 pygame-ce 的地牢 Roguelike 游戏。
 
-#### 软件架构
-软件架构说明
+## 语言 / 类型
+- Python / pygame 图形界面 Roguelike
 
+## 目录要点
+- `main.py` —— 入口
+- `core/`、`systems/`、`shared/` —— 核心逻辑、系统与共享模块
+- `assets/`、`tools/`、`tests/` —— 资源、工具与测试
+- `save.json` —— 存档示例
 
-#### 安装教程
+## 运行方式与依赖
+- 运行：`F:\Python314\python.exe main.py`
+- 依赖（`requirements.txt`）：pygame-ce>=2.5.0；numpy、scipy、sounddevice（可选，音频）
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
-
-
----
-
-## 仓库索引标注（2026-08-25 · siwpan 统一治理）
-
-> 地下城小游戏；本地对应 G:\games\dungeon。
-> 本标注为发布面统一追加，不改变原有内容。
+## 测试状态
+- py_compile 语法检查通过（14 个 .py）
+- GUI 窗口游戏，未运行（仅编译）
