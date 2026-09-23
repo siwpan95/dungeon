@@ -1,5 +1,7 @@
 # Savage Dungeon
 
+> 仓库：<https://gitee.com/siwpan/dungeon> ｜ 许可：MIT（见 [LICENSE](LICENSE)）
+
 一款基于 pygame-ce 的地牢 Roguelike 游戏。
 
 ## 语言 / 类型
@@ -12,7 +14,7 @@
 - `save.json` —— 存档示例
 
 ## 运行方式与依赖
-- 运行：`F:\Python314\python.exe main.py`
+- 运行：`python main.py`
 - 依赖（`requirements.txt`）：pygame-ce>=2.5.0；numpy、scipy、sounddevice（可选，音频）
 
 ## 测试状态
