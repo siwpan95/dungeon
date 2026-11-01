@@ -8,3 +8,6 @@ __pycache__/
 build/
 dist/
 *.spec
+
+# 卫生债务批次 2026-11-01
+.pytest_cache/
